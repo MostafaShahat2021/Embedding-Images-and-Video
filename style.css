@@ -5,19 +5,33 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* .content-area{
+    border: 1px solid red;
+}
+.video-container{
+    border: 2px solid green;
+    width: 100%;
+}
+nav{
+    border: 3px solid blue;
+} */
+
+
 header{
     display: flex;
     justify-content: space-around;
     align-content: center;
     height: 55px;
     padding: 0 16px;
-
+    margin-bottom: 2%;
 }
 
 .content-area{
     display: flex;
     justify-content: space-around;
     align-content: center;
+    margin-left: 3%;
+    width: 100%;
 }
 
 .left-sec{
@@ -59,3 +73,59 @@ header{
     cursor: pointer;
 }
 
+.right-sec a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+.video-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+.creator-img img{
+    /* border: 2px solid; */
+    width: 8%;
+    border-radius: 50%;
+    margin-left: 5%;
+    /* margin-bottom: 1%; */
+}
+
+.video-details{
+    font-size: 1rem;
+    font-weight: 200;
+    margin-left: 6%;
+    margin-bottom: 1%;
+}
+
+.video-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+.video-btn i{
+    cursor: pointer;
+}
+.video{
+    margin: 5%;
+}
+
+.video-details span{
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.vid-thbnl img{
+    cursor: pointer;
+}
