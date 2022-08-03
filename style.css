@@ -31,3 +31,31 @@ header{
     width: 46%;
     padding-left: 1rem;
 }
+
+.mid-sec{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-sec form{
+    /* border: 2px solid; */
+    display: flex;
+    height: 40px;
+    width: 620px;
+}
+
+.mid-sec form input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.mid-sec button{
+    width: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
