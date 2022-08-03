@@ -9,10 +9,25 @@ header{
     display: flex;
     justify-content: space-around;
     align-content: center;
+    height: 55px;
+    padding: 0 16px;
+
 }
 
 .content-area{
     display: flex;
     justify-content: space-around;
     align-content: center;
+}
+
+.left-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left-sec img{
+    width: 46%;
+    padding-left: 1rem;
 }
