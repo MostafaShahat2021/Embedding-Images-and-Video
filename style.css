@@ -10,3 +10,9 @@ header{
     justify-content: space-around;
     align-content: center;
 }
+
+.content-area{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
